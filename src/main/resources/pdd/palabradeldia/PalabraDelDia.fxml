@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="771.0" prefWidth="704.0" spacing="20.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pdd.palabradeldia.PalabraDelDiaController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+      <children>
+         <Label fx:id="box1" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+         <Label fx:id="box2" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+         <Label fx:id="box3" alignment="CENTER" layoutX="80.0" layoutY="10.0" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+         <Label fx:id="box4" alignment="CENTER" layoutX="150.0" layoutY="10.0" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+         <Label fx:id="box5" alignment="CENTER" layoutX="220.0" layoutY="10.0" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+      </children>
+   </HBox>
+   <HBox alignment="CENTER" layoutX="30.0" layoutY="135.0" prefHeight="100.0" prefWidth="200.0">
+      <children>
+         <Label fx:id="box6" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+         <Label fx:id="box7" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+         <Label fx:id="box8" alignment="CENTER" layoutX="80.0" layoutY="10.0" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+         <Label fx:id="box9" alignment="CENTER" layoutX="150.0" layoutY="10.0" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+         <Label fx:id="box10" alignment="CENTER" layoutX="220.0" layoutY="10.0" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+      </children>
+   </HBox>
+   <HBox alignment="CENTER" layoutX="30.0" layoutY="75.0" prefHeight="100.0" prefWidth="200.0">
+      <children>
+         <Label fx:id="box11" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+         <Label fx:id="box12" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+         <Label fx:id="box13" alignment="CENTER" layoutX="80.0" layoutY="10.0" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+         <Label fx:id="box14" alignment="CENTER" layoutX="150.0" layoutY="10.0" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+         <Label fx:id="box15" alignment="CENTER" layoutX="220.0" layoutY="10.0" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+      </children>
+   </HBox>
+   <HBox alignment="CENTER" layoutX="30.0" layoutY="195.0" prefHeight="100.0" prefWidth="200.0">
+      <children>
+         <Label fx:id="box16" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+         <Label fx:id="box17" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+         <Label fx:id="box18" alignment="CENTER" layoutX="80.0" layoutY="10.0" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+         <Label fx:id="box19" alignment="CENTER" layoutX="150.0" layoutY="10.0" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+         <Label fx:id="box20" alignment="CENTER" layoutX="220.0" layoutY="10.0" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+      </children>
+   </HBox>
+   <HBox alignment="CENTER" layoutX="30.0" layoutY="234.0" prefHeight="100.0" prefWidth="200.0">
+      <children>
+         <Label fx:id="box21" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+         <Label fx:id="box22" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+         <Label fx:id="box23" alignment="CENTER" layoutX="80.0" layoutY="10.0" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+         <Label fx:id="box24" alignment="CENTER" layoutX="150.0" layoutY="10.0" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+         <Label fx:id="box25" alignment="CENTER" layoutX="220.0" layoutY="10.0" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: black; -fx-background-color: white;" textAlignment="CENTER">
+            <font>
+               <Font size="48.0" />
+            </font>
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+      </children>
+   </HBox>
+   <GridPane alignment="CENTER" hgap="10" vgap="10">
+      <TextField fx:id="comprobarInput" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+      <Button fx:id="botonComprobar" onAction="#botonComprobar" text="Enviar" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+      <Button onAction="#abrirVentanaReinicio" text="Reiniciar" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+      <columnConstraints>
+         <ColumnConstraints />
+         <ColumnConstraints />
+         <ColumnConstraints />
+      </columnConstraints>
+      <rowConstraints>
+         <RowConstraints />
+      </rowConstraints>
+   </GridPane>
+</VBox>

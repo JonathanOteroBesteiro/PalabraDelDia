@@ -33,6 +33,7 @@ public class PalabraDelDiaController {
     private static int contador = 0;
     private String palabra;
 
+    // Método para iniciar el juego
     @FXML
     private void iniciarJuego() {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
@@ -42,27 +43,32 @@ public class PalabraDelDiaController {
         alert.showAndWait();
     }
 
+    // Método para cerrar la aplicación
     @FXML
     private void cerrarApp() {
         Stage stage = (Stage) botonComprobar.getScene().getWindow();
         stage.close();
     }
 
+    // Método que se ejecuta al inicializar el controlador
     @FXML
     private void initialize() {
         try {
+            // Obtener una palabra aleatoria al inicio del juego
             palabra = obtenerPalabraAleatoria("src/main/resources/palabras.txt");
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
+    // Método para obtener una palabra aleatoria de un archivo
     private String obtenerPalabraAleatoria(String archivo) throws IOException {
         List<String> palabras = leerPalabras(archivo);
         Random rand = new Random();
         return palabras.get(rand.nextInt(palabras.size()));
     }
 
+    // Método para leer palabras desde un archivo
     private List<String> leerPalabras(String archivo) throws IOException {
         List<String> palabras = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader(archivo));
@@ -74,7 +80,7 @@ public class PalabraDelDiaController {
         return palabras;
     }
 
-
+    // Método que se ejecuta al hacer clic en el botón de comprobar
     @FXML
     private void botonComprobar() {
         if (comprobarInput == null) {
@@ -87,12 +93,14 @@ public class PalabraDelDiaController {
         String comprobar = comprobarInput.getText().trim();
 
         if (comprobar.length() != 5) {
+            // Mostrar mensaje de error si la palabra no tiene 5 letras
             Alert mensajeError = new Alert(Alert.AlertType.INFORMATION);
             mensajeError.setTitle("Error");
             mensajeError.setHeaderText("Palabra incorrecta");
             mensajeError.setContentText("¡La palabra a insertar debe ser de 5 letras!");
             mensajeError.showAndWait();
         } else {
+            // Comprobar la palabra ingresada
             for (int i = 0; i < comprobar.length(); i++) {
                 String letra = comprobar.substring(i, i + 1);
                 lista[i + valori].setText(letra);
@@ -108,15 +116,18 @@ public class PalabraDelDiaController {
             contador++;
 
             if (comprobar.equals(palabra)) {
+                // Mostrar mensaje de felicitación si se adivina la palabra
                 mostrarMensaje("¡Felicidades!", "¡Has adivinado la palabra!", "La palabra correcta es: " + palabra);
                 terminarJuego();
             } else if (contador >= 5) {
+                // Mostrar mensaje de fin de juego si no se adivina la palabra después de 5 intentos
                 mostrarMensaje("Juego terminado", "No has adivinado la palabra", "La palabra correcta era: " + palabra);
                 terminarJuego();
             }
         }
     }
 
+    // Método para mostrar un mensaje
     private void mostrarMensaje(String titulo, String encabezado, String contenido) {
         Alert mensaje = new Alert(Alert.AlertType.INFORMATION);
         mensaje.setTitle(titulo);
@@ -125,11 +136,13 @@ public class PalabraDelDiaController {
         mensaje.showAndWait();
     }
 
+    // Método para terminar el juego
     private void terminarJuego() {
         comprobarInput.setDisable(true);
         botonComprobar.setDisable(true);
     }
 
+    // Método para abrir la ventana de reinicio
     @FXML
     public void abrirVentanaReinicio() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("ReiniciarJuego.fxml"));
@@ -148,6 +161,7 @@ public class PalabraDelDiaController {
         stage.show();
     }
 
+    // Método para reiniciar el juego
     public void reiniciarJuego() {
         // Obtener una nueva palabra aleatoria
         try {

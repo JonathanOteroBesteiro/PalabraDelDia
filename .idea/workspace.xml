@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78d89297-2bcc-4a9a-82b2-150400eb59fb" name="Changes" comment="Inicio&#10;&#10;Signed-off-by: Marta &lt;marta@empresa.com&gt;" />
+    <list default="true" id="78d89297-2bcc-4a9a-82b2-150400eb59fb" name="Changes" comment="Empezamos a comentar">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pdd/palabradeldia/PalabraDelDiaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pdd/palabradeldia/PalabraDelDiaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pdd/palabradeldia/ReiniciarJuegoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pdd/palabradeldia/ReiniciarJuegoController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,15 +58,20 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jonin/Downloads/PalabraDelDia/target",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jonin\Downloads\PalabraDelDia\target" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jonin\Downloads\PalabraDelDia\src\main\resources\pdd\palabradeldia" />
       <recent name="C:\Users\jonin\Downloads\PalabraDelDia\src\main\resources" />
@@ -136,7 +145,7 @@
       <workItem from="1717757311561" duration="13636000" />
       <workItem from="1717773872584" duration="2017000" />
       <workItem from="1717776001295" duration="24000" />
-      <workItem from="1717776034391" duration="859000" />
+      <workItem from="1717776034391" duration="4775000" />
     </task>
     <task id="LOCAL-00001" summary="Inicio">
       <option name="closed" value="true" />
@@ -170,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717776870021</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Empezamos a comentar">
+      <option name="closed" value="true" />
+      <created>1717778637898</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717778637898</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +199,7 @@
     <MESSAGE value="Dandole forma" />
     <MESSAGE value="Retiro la idea de hacer una ventana principal eligiendo si &quot;Jugar&quot; o &quot;Cerrar App&quot;" />
     <MESSAGE value="Inicio&#10;&#10;Signed-off-by: Marta &lt;marta@empresa.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio&#10;&#10;Signed-off-by: Marta &lt;marta@empresa.com&gt;" />
+    <MESSAGE value="Empezamos a comentar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Empezamos a comentar" />
   </component>
 </project>
